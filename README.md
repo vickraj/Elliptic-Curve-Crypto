@@ -15,7 +15,7 @@ This suite was built as a way of testing my understanding of several algorithms 
 
 ## Dependencies:
 sympy -- calculating the weil pairing in particular, among other things, uses sympy. 
-numpy -- several calculations use numpy's pseudo random number generator. 
+numpy -- several calculations use numpy's pseudo random number generator or numpy arrays
 
 ## Usage:
 The ecc.py file has examples of all of the other modules being used, as well as a small terminal that allows one to use these.
@@ -26,5 +26,7 @@ The ecc.py file has examples of all of the other modules being used, as well as 
 * Include Schoof's algorithm or another version of efficient point counting, which is necessary to do ECPP and the MOV attack.
 
 * Include support for larger integers/more realistically large numbers for elliptic curve crypto. 
+
+* Include an actual user interface instead of just the shoddy fake terminal
 
 * Other TODO's are in each of the modules separately. 
